@@ -15,7 +15,7 @@ This directory contains the data sets that are utilized in the least mean square
 
 3. Kirchgässner, Wilhelm (2019). Electric Motor Temperature, Version 4(Paderborn University). Retrieved May 10, 2021 from https://www.kaggle.com/wkirgsn/electric-motor-temperature.
 
-*Details*: This data set contains 1.33 million observations and 13 total columns. Some included fields are coolant temperature, voltage, and current.
+*Details*: This data set contains 1.33 million observations and 13 total columns. Some included fields are coolant temperature, voltage, and current. We split this file into 3 parts to reduce the size.
 
 
 ## Important Notes: 

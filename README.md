@@ -8,6 +8,27 @@ In this paper, we implement a novel Least-Mean-Squares Solvers from scratch that
 
 ## How to navigate this project:
 
+### 1. Data retrieval and preprocessing:
+**File name:** DataPreprocessing.py
+
+**Contents:** This file contains code to import and standardize the data sets. The code 
+
+### 2. Method Implementation:
+
+**File name:** ENTER HERE
+
+**Contents:** This file contains code to import and standardize the data sets. The code 
+
+
+### Least-Mean-Square Solvers:
+
+3 File name: LeastSquaresFunctions.py
+
+**Contents:** This file contains code to import and standardize the data sets. The code 
+
+
+
+
 
 
 ## Authors:
