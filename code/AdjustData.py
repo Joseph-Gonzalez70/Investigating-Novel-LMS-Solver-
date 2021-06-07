@@ -13,6 +13,8 @@ def adjust_housing_data(house_data):
     This function removes the  following columns from the housing data:
           'zpid', 'zipcode', 'latest_salemonth', 'numOfPhotos'
     This function also transforms the yearBuilt and latest_saleyear columns.
+    Input:
+        House data as a dataframe.
     Output:
     X -> Observations for the predictor variables(numOfBathrooms, numOfBedrooms, etc.)
     y -> Response variable(latestPrice)
@@ -37,6 +39,8 @@ def adjust_car_data(car_data):
      This function removes the  following columns from the car purchasing data:
               'Customer Name', 'Customer e-mail', 'Country'
     This function also transforms the 'Gender" variable to a boolean type.
+     Input:
+        Car purchasing data as a dataframe.
     Output:
     X -> Observations for the predictor variables(Gender, Age, Net Worth, etc.)
     y -> Response variable(Car Purchase Amount)
