@@ -1,4 +1,4 @@
-# This file contains the least mean square solvers
+# This file contains the least mean square solvers: Ridge, Lasso, ElasticNet, OLS
 
 # Libraries:
 from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV, ElasticNetCV
