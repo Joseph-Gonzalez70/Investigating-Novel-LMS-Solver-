@@ -14,11 +14,17 @@ import StandardizeSplit as sp
 import AdjustData as ad
 
 
-def process_data(X, y, std_data, train_test_split, test_split):
+def process_data(X, y, std_data, train_test_split, test_split = 0.3):
     """
     This function splits and/or standardizes the data set.
     We standardize the data using the standardize_data function from StandardizeSplit.
     We split the data using the split_dataset function from StandardizeSplit.
+    Input:
+        X: Data corresponding to the predictor variables.(Array)
+        y: Data corresponding to the response variable.
+        std_data: Set to True to standardize the data.
+        train_test_split: Set to True to get a training and test split
+        test_split: The percentage of the full data to include in the test set.
     """
     if std_data == True and train_test_split == True:
         X_tr, y_tr, X_test, y_test = sp.split_dataset(X, y, test_split)
@@ -85,9 +91,9 @@ def get_motor_data(train_test_split = False, test_split = 0.3):
      Parameters 1: train_test_split = False -> Output 1: Matrix X(nxP) and response y
      Parameters 2: train_test_split = True  -> Output 2: X_train, y_train, X_test, y_test
      """
-     X, y = ad.import_adjust_electric_data()
-     # Identify the options:
-     std_data = False # The data is normalized
-     if train_test_split == False:
+    X, y = ad.import_adjust_electric_data()
+    # Identify the options:
+    std_data = False # The data is normalized
+    if train_test_split == False:
         return(X, y)
-     return(process_data(X, y, std_data, train_test_split, test_split))
+    return(process_data(X, y, std_data, train_test_split, test_split))
