@@ -1,6 +1,6 @@
 # Project Data Sets
 
-This directory contains the data sets that are utilized in the least mean squares corset algorithm and the least means squares corset++ algorithm. We provided general information and references for the data sets below:
+This directory contains the data sets that we utilize in the least mean squares corset algorithm and the least means squares corset++ algorithm. We provided general information and references for the data sets below:
 
 1. Sharma, Dev (2021, May). Car Purchasing Data, Version 1(United States). Retrieved May 10, 2021 from https://www.kaggle.com/dev0914sharma/car-purchasing-model. 
 
@@ -15,7 +15,7 @@ This directory contains the data sets that are utilized in the least mean square
 
 3. Kirchgässner, Wilhelm (2019). Electric Motor Temperature, Version 4(Paderborn University). Retrieved May 10, 2021 from https://www.kaggle.com/wkirgsn/electric-motor-temperature.
 
-*Details*: This data set contains 1.33 million observations and 13 total columns. Some included fields are coolant temperature, voltage, and current. We split this file into 3 parts to reduce the size.
+*Details*: This data set contains 1,330,816 observations and 13 total columns. Some included fields are coolant temperature, voltage, and current. We split this file into 5 smaller files to reduce the file size.
 
 
 ## Important Notes: 
