@@ -45,7 +45,7 @@ def get_housing_data(std_data = False, train_test_split = False, test_split = 0.
     Parameters 1: std_data = False, train_test_split = False -> Output 1: Matrix X(nxP) and response y
     Parameters 2: std_data = True, train_test_split = False  -> Output 2: Standardized Matrix X and response y
     Parameters 3: std_data = False, train_test_split = True  -> Output 3: X_train, y_train, X_test, y_test
-    Parameters 4: std_data = True, train_test_split = True   -> Output 4: Standardized X_train and X_test, y_train, y_test
+    Parameters 4: std_data = True, train_test_split = True   -> Output 4: Standardized X_train, y_train, Standardized X_test, y_test
     """
     # Import the data:
     path = "../data/Austin_Housing_Data.csv"
@@ -71,7 +71,7 @@ def get_car_data(std_data = False, train_test_split = False, test_split = 0.3):
     Parameters 4: std_data = True, train_test_split = True   -> Output 4: Standardized X_train and X_test, y_train, y_test
     """
     # Import the data set:
-    path = "../data/Car_Purchasing_Data.xls"
+    path = "../data/Car_Purchasing_Data.csv.xls"
     car_data = pd.read_csv(path)
 
     # Get X and y:
