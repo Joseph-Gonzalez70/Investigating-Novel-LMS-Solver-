@@ -6,15 +6,9 @@ This folder contains brief exploratory data analyses for the data sets and metho
 
 ## How to Navigate Folder:
 
-The most important file in this folder is the "method results" file. We advise the reader to open and examine this file first.
-
 **Optional:** Since this the goal for this project is implementation, the data summary files are optional to examine. They provide insights into the data sets utilized in the project, but they are not essential to the project's purpose. We provide them as a courtesy for those interested in learning slightly more about the data sets.
 
 ## Folder Outline:
-
-### Method Results Visualizations:
-
-1. Method_Results.ipynb
 
 ### Exploratory Data Analysis Notebooks:
 
