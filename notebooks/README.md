@@ -2,7 +2,7 @@
 
 ## Content Explanation:
 
-This folder contains brief exploratory data analyses for the data sets and method result visualizations. We labeled each exploratory data analysis with "Data Summary" and the name of the data set it refers to. These files contain a short explanation of the data set structures and the variables included in the method implementation. We also provide descriptive visualizations for the variables. The "method results" file contains visualizations for the run time results for the coreset data set and the non-coreset data set. The visualizations included in the "method results" file are also in the project report.
+This folder contains brief exploratory data analyses for the data sets and method result visualizations. We labeled each exploratory data analysis with "Data Summary" and the name of the data set it refers to. These files contain a short explanation of the data set structures and the variables included in the method implementation. We also provide descriptive visualizations for the variables.
 
 ## How to Navigate Folder:
 
