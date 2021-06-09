@@ -40,7 +40,7 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 **File name:** LeastSquaresFunctions.py
 
-*Contents:* This file contains functions to fit and test the LMS Solvers. This includes linear regression, ridge regression, lasso regresssion, and eleastic net regression.
+*Contents:* This file contains functions to fit and test the LMS Solvers. This includes linear regression, ridge regression, lasso regression, and elastic net regression.
 
 ## Implementation
 
