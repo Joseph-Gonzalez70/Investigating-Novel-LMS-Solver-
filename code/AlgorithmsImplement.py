@@ -12,8 +12,8 @@ def CARATHEODORY(P, u):
     d = P.shape[1]
     while True:
         n = np.count_nonzero(u)
+        u = u / np.sum(u)
         u_plus_idx = u > 0
-
         if n <= d + 1:
             return P, u
 
