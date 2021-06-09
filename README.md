@@ -58,6 +58,10 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 *Contents:* This file contains the report for our project. The report includes methodologies and implementation results.
 
+### Optional: 
+
+The notebook folder contains "brief" exploratory data analyses for the data sets in the data folder. Since the goal for the project is to implement the LMS coreset algorithm, we list this notebook as an optional read.
+
 ## Authors:
 
 Zhongxuan Liu[bkbliu@ucdavis.edu]
