@@ -29,7 +29,7 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 **Folder Name:** Code
 
-**File names:** 208 Final Project-Algorithm1,2.ipynb, 
+**File names:** 208 Final Project-Algorithm1,2.ipynb, Algorithms implement.py
 
 *Contents:* These files contain the functions for the LMS-Coreset algorithm(algorithms 16, 1, 2, and 5). The functions return the LMS coreset.
 
@@ -46,9 +46,9 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 ### 4. Algorithm Implementation:
 
-**Folder Name:** Code
+**Folder Name:** 
 
-**File names:** implementation.py
+**File names:** 
 
 *Contents:* This file contains code that implements the LMS coreset algorithm.
 
