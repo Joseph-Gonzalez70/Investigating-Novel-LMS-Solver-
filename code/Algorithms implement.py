@@ -27,27 +27,53 @@ def CARATHEODORY(P, u):
         v_plus_idx = v > 0
         alpha = np.min(u[u_plus_idx][v_plus_idx] / v[v_plus_idx])
 
-        w = u[u_plus_idx] - alpha * v
-        w[np.argmin(w)] = 0.0
-        w_plus_idx = w > 0
-        S = P[w_plus_idx]
-        w = w[w_plus_idx]
+        w = np.zeros(P.shape[0])
+        w_plus = u[u_plus_idx] - alpha * v
+        w_plus[np.argmin(w_plus)] = 0.0
+        w[u_plus_idx] = w_plus
         u = w
-        P = S
 
 
 # Algorithm 1
-def FAST_CARATHEODORY_SET(P, u, k):
+def FAST_CARATHEODORY_SET(P, u, k=None):
+    """
+    :param P: a numpy array P of size n (points) times d (dimensions)
+    :param u: weights function
+    :param k: An integer in range(1, n+1) for numerical accuracy/speed trade-off
+    :return: A Caratheodory set of (P, u)
+    """
     d = P.shape[1]
+    if k < d ** 2 + 2:
+        print("Invalid k value! k should be at least d^2 + 2.")
+        return
+    if k is None:
+        k = d ** 2 + 2
     while True:
+        u = u / np.sum(u)
         n = np.count_nonzero(u)
-        u_plus_idx = u > 0
-        P = P[u_plus_idx]
-        u = u[u_plus_idx]
-
-        if P.shape[0] <= d + 1:
+        if n <= d + 1:
             return P, u
-    # To be continued
+
+        cls_size = math.ceil(n / k)
+        tail = k - int(n % k)
+        u = u.reshape(-1, 1)
+        if P.shape[0] % k != 0:
+            zeros = np.zeros((tail, P.shape[1]))
+            P = np.concatenate((P, zeros))
+            zeros = np.zeros((tail, u.shape[1]))
+            u = np.concatenate((u, zeros))
+
+        P_cls = P.reshape((k, cls_size, d))
+        u_cls = u.reshape((k, cls_size))
+
+        mu = np.einsum('ijk,ij->ik', P_cls, u_cls)
+        u_prime = np.sum(u_cls, axis=1)
+        mu = np.einsum("i,ij->ij", 1 / u_prime, mu)
+
+        mu_tilde, w_tilde = CARATHEODORY(mu, u_prime)
+        w = np.einsum("i,ij->ij", w_tilde, u_cls)
+        w = np.einsum("i,ij->ij", 1 / u_prime, w)
+        u = w.reshape(-1)
 
 
 # Algorithm 2
