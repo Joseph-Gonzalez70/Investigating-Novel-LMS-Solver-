@@ -6,7 +6,7 @@ In this folder, the files contain functions that we use in the LMS coreset imple
 
 ## How to Navigate Folder:
 
-We list each file in the order their functions occur in the algorithm implementation file. If we list files underneath a step, this means that we use those files' contents in the current step file. 
+We list each file in the order their functions occur in the algorithm implementation file. If we list files underneath a step, this means that we use those files' contents in the current step's file. 
 
 1. DataPreprocessing.py 
       - AdjustData.py, StandardizeSplit.py
@@ -17,4 +17,4 @@ We list each file in the order their functions occur in the algorithm implementa
 
 4. 208 Final Project-Algorithm1,2.ipynb
 
-5. Algorithms implement.py
+5. AlgorithmsImplement.py
