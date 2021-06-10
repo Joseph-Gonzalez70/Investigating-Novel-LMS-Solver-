@@ -62,9 +62,9 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 The notebook folder contains "brief" exploratory data analyses for the data sets in the data folder. Since the goal for the project is to implement the LMS coreset algorithm, we list this notebook as an optional read.
 
-## Authors:
+## Authors and Contributions:
 
-Zhongxuan Liu[bkbliu@ucdavis.edu]
+Zhongxuan Liu[bkbliu@ucdavis.edu]: Algorithms implementation, experiments and conclusion.
 
 Shanshan Chen[ssnchen@ucdavis.edu]
 
