@@ -46,9 +46,9 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 ### 4. Algorithm Implementation:
 
-**Folder Name:** 
+**Folder Name:** Code
 
-**File names:** 
+**File names:** AlgorithmsImplement.py
 
 *Contents:* This file contains code that implements the LMS coreset algorithm.
 
