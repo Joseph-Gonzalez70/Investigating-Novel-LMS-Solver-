@@ -24,16 +24,6 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 *Contents:* DataPreprocessing.py imports and calls functions from these files. The AdjustData.py cleans the data and removes features(if necessary) that are not useful for regression. StandardizeSplit.py contains a standardizing and a data split function(test/train).
 
-
-### 2. LMS-Coreset Algorithm Functions:
-
-**Folder Name:** Code
-
-**File names:** AlgorithmImplement.ipynb
-
-*Contents:* These files contain the functions for the LMS-Coreset algorithm(algorithms 16, 1, 2, and 5). The functions return the LMS coreset.
-
-
 ### 3. Least-Mean-Square Solvers:
 
 **Folder Name:** Code
@@ -48,9 +38,9 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 **Folder Name:** Code
 
-**File names:** 
+**File names:** AlgorithmImplement.ipynb
 
-*Contents:* This file contains code that implements the LMS coreset algorithm.
+*Contents:* These files contain the functions for the LMS-Coreset algorithm(algorithms 16, 1, 2, and 5). The functions return the LMS coreset.
 
 ### 5. Report And Results:
 
