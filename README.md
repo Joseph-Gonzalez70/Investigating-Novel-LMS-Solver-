@@ -42,7 +42,7 @@ In this paper, we implement the novel LMS corest algorithm from *Fast and Accura
 
 ### 4. Report And Results:
 
-**File names:** report.pdf
+**File names:** STA208_Report.pdf
 
 *Contents:* This file contains the report for our project. The report includes methodologies and implementation results.
 
