@@ -15,6 +15,6 @@ We list each file in the order their functions occur in the algorithm implementa
 
 3. LMS Coreset Algorithm
 
-4. 208 Final Project-Algorithm1,2.ipynb
+4. AlgorithmsImplement.py
 
-5. AlgorithmsImplement.py
+5. AlgorithmImplement.ipynb - Testing algorithm 
