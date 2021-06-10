@@ -68,5 +68,5 @@ Zhongxuan Liu[bkbliu@ucdavis.edu]: Algorithms implementation, experiments and co
 
 Shanshan Chen[ssnchen@ucdavis.edu]: Algorithm 1,2 implementations and algorithm 16,1,2,5 debugging
 
-Joseph Gonzalez[joegonza@ucdavis.edu]
+Joseph Gonzalez[joegonza@ucdavis.edu] abstract, introduction, methodologies, appendices, and data summaries
 
