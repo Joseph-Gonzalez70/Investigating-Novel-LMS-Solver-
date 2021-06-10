@@ -38,7 +38,7 @@ In this paper, we implement the novel LMS corest algorithm from *Fast and Accura
 
 **File names:** AlgorithmImplement.ipynb
 
-*Contents:* These files contain the functions for the LMS-Coreset algorithm(algorithms 16, 1, 2, and 5). The functions return the LMS coreset.
+*Contents:* This files contain the functions for the LMS-Coreset algorithm(algorithms 16, 1, 2, and 5). The functions return the LMS coreset.
 
 ### 4. Report And Results:
 
