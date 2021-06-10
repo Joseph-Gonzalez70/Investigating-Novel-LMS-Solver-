@@ -48,7 +48,7 @@ Steps 1-3 contain information about the functions called in the main implementat
 
 **Folder Name:** Code
 
-**File names:** AlgorithmImplement.ipynb 
+**File names:** 
 
 *Contents:* This file contains code that implements the LMS coreset algorithm.
 
