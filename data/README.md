@@ -19,4 +19,4 @@ This directory contains the data sets that we utilize in the least mean squares 
 
 
 ## Important Notes: 
-The "total columns" listed in this document do not refer to the columns we used in the algorithms. To see the number of columns used in the algorithms, see the *report.pdf* or the *Data Summary* jupyter notebooks.
+The "total columns" listed in this document do not refer to the columns we used in the algorithms. To see the number of columns used in the algorithms, see the *STA208_Report.pdf* or the *Data Summary* jupyter notebooks.
