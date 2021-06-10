@@ -10,7 +10,7 @@ In this paper, we implement the novel LMS corest algorithm from *Fast and Accura
 
 ## Pre-implementation steps
 
-Steps 1-3 contain information about the functions called in the main implementation file(implementation.py). We ordered the steps following the order they occur in the main implementation file. We list the most important files in the implementation section below.
+Steps 1-2 contain information about the functions called in the main implementation file(implementation.py). We ordered the steps following the order they occur in the main implementation file. We list the most important files in the implementation section below.
 
 ### 1. Data retrieval and preprocessing:
 
